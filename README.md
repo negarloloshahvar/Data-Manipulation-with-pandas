@@ -12,3 +12,5 @@ In this course, I'll practice how to manipulate DataFrames, as I extract, filter
 ##### 	values: A two-dimensional NumPy array of values.
 ##### 	columns: An index of columns: the column names.
 ##### 	index: An index for the rows: either row numbers or row names.
+
+You can sort the rows by passing a column name to **.sort_values()**.
