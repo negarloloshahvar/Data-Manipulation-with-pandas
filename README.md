@@ -8,3 +8,9 @@ In this course, I'll practice how to manipulate DataFrames, as I extract, filter
 #### info() shows information on each of the columns, such as the data type and number of missing values.
 #### shape returns the number of rows and columns of the DataFrame.
 #### describe() calculates a few summary statistics for each column.
+#### Pandas DataFrames consist of three components, stored as attributes:
+##### 	values: A two-dimensional NumPy array of values.
+##### 	columns: An index of columns: the column names.
+##### 	index: An index for the rows: either row numbers or row names.
+
+You can sort the rows by passing a column name to **.sort_values()**.
