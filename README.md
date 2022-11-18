@@ -17,4 +17,4 @@ You can sort the rows by passing a column name to **.sort_values()**.
 
 
 ## Chapter 2: Aggregating DataFrames
-
+In this chapter, I'll practice how to calculate summary statistics on DataFrame columns, and master grouped summary statistics and pivot tables.
