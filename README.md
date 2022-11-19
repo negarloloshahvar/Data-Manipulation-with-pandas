@@ -12,14 +12,6 @@ In this project I will analyze the Walmart Stores Sales dataset. Walmart Stores 
 - values: A two-dimensional NumPy array of values.
 - columns: An index of columns: the column names.
 - index: An index for the rows: either row numbers or row names.
-## Aggregating DataFrames
-
-You can sort the rows by passing a column name to **.sort_values()**.
-### Summary Statistics
-
-- Summary Statistics summarize many numbers in one statistic. e.g. mean, median, minimum, maximum, and standard deviation. Calculating summary statistics allows you to get a better sense of your data, even if there's a lot of it. 
-- By taking a closer look at the summary statistics of the walmart dataset we obtain that the mean weekly sales amount is almost double the median weekly sales amount! This can tell us that there are a few very high sales weeks that are making the mean so much higher than the median.
-- Summary statistics can also be calculated on date columns that have values with the data type ```datetime64```. Taking the minimum and maximum of a column of dates is handy for figuring out what time period your data covers.
 
 ## Chapter 2: Aggregating DataFrames
 In this chapter, I'll practice how to calculate summary statistics on DataFrame columns, and master grouped summary statistics and pivot tables.
