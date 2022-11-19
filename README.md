@@ -1,5 +1,28 @@
 # DataCamp-Data-Manipulation-with-pandas
+## Course Description
+In this course, I'll practice how to manipulate DataFrames, as I extract, filter, and transform real-world datasets for analysis. Using pandas I’ll explore all the core data science concepts. Using real-world data, including Walmart sales figures and global temperature time series, I’ll learn how to import, clean, calculate statistics, and create visualizations.
+In this project I will analyze the Walmart Stores Sales dataset. Walmart Stores are a chains of department stores in the US. This Dataset contains information about Walmart store departments which includes ID number for each store, store type, amount of weekly sales (in USD), whether it was a holiday week, the average tempreture during the week (in Centigrade), average fuel price in each week per liter(in USD), and the national unemployment rate that week.
 
+## Chapter 1: Transforming DataFrames
+- head() returns the first few rows (the “head” of the DataFrame).
+- info() shows information on each of the columns, such as the data type and number of missing values.
+- shape returns the number of rows and columns of the DataFrame.
+- describe() calculates a few summary statistics for each column.
+#### Pandas DataFrames consist of three components, stored as attributes:
+- values: A two-dimensional NumPy array of values.
+- columns: An index of columns: the column names.
+- index: An index for the rows: either row numbers or row names.
+## Aggregating DataFrames
+
+You can sort the rows by passing a column name to **.sort_values()**.
+### Summary Statistics
+
+- Summary Statistics summarize many numbers in one statistic. e.g. mean, median, minimum, maximum, and standard deviation. Calculating summary statistics allows you to get a better sense of your data, even if there's a lot of it. 
+- By taking a closer look at the summary statistics of the walmart dataset we obtain that the mean weekly sales amount is almost double the median weekly sales amount! This can tell us that there are a few very high sales weeks that are making the mean so much higher than the median.
+- Summary statistics can also be calculated on date columns that have values with the data type ```datetime64```. Taking the minimum and maximum of a column of dates is handy for figuring out what time period your data covers.
+
+## Chapter 2: Aggregating DataFrames
+In this chapter, I'll practice how to calculate summary statistics on DataFrame columns, and master grouped summary statistics and pivot tables.
 In this project I will analyze the Walmart Stores Sales dataset. Walmart Stores are a chains of department stores in the US. This Dataset contains information about Walmart store departments which includes ID number for each store, store type, amount of weekly sales (in USD), whether it was a holiday week, the average tempreture during the week (in Centigrade), average fuel price in each week per liter(in USD), and the national unemployment rate that week.
 
 ## Aggregating DataFrames
