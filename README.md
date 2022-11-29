@@ -80,3 +80,9 @@ The ```.pivot_table()``` method has several useful arguments, including fill_val
 
 - ```fill_value``` replaces missing values with a real value (known as imputation).
 - ```margins``` is a shortcut for when you pivoted by two variables, but also wanted to pivot by each of those variables separately: it gives the row and column totals of the pivot table contents.
+
+## Chapter 3: Slicing and Indexing DataFrames
+
+### Subsetting with ```.loc[]```
+
+The killer feature for indexes is .loc[]: a subsetting method that accepts index values. When you pass it a single argument, it will take a subset of rows.
